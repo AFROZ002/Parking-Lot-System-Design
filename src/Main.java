@@ -12,7 +12,7 @@ public class Main {
         // Display initial status
         parkingLot.displayParkingStatus();
 
-        // Test Case 1: Park a car
+         // Test Case 1: Park a car
         System.out.println("TEST 1: Parking a car");
         Car car1 = new Car("ABC123"); // Now this works!
         Ticket ticket1 = parkingLot.parkVehicle(car1);
